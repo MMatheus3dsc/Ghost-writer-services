@@ -66,6 +66,7 @@ form [type= "submit"]{
   background-color: #eb9c4d;
   color: #142433;
   font-weight: bold;
+  padding: 2px;
 }
 form [type= "submit"]:hover{
   cursor: pointer;
@@ -81,4 +82,12 @@ input{
   height: 20px;
   font-size: 15px;
   
+}
+button[type ="submit"]{
+  height: 50px;
+  width: 50%;
+  background-color: #eb9c4d;
+  color: #142433;
+  font-weight: bold;
+  padding: 2px;
 }
