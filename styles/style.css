@@ -21,18 +21,18 @@ li{
   margin: 20px;
 }
 a{
-  color: #142433;
+  color: #051b30;
 }
 a:hover{
   color:#eb9c4d ;
   transition: 0,3s all;
 }
-a:nth-child(4){
+a:nth-child(3){
   border: 2px solid #eb9c4d;
   padding: 10px;
   border-radius: 20px;
 }
-a:hover:nth-child(4){
+a:hover:nth-child(3){
 background-color: #eb9c4d;
 color: #142433;
 }
@@ -60,14 +60,8 @@ form{
   flex-direction: column;
   width: 70%;
 }
-form [type= "submit"]{
-  height: 50px;
-  width: 50%;
-  background-color: #eb9c4d;
-  color: #142433;
-  font-weight: bold;
-  padding: 2px;
-}
+
+
 form [type= "submit"]:hover{
   cursor: pointer;
 }
@@ -83,11 +77,16 @@ input{
   font-size: 15px;
   
 }
-button[type ="submit"]{
-  height: 50px;
-  width: 50%;
+#btn-index{
+  padding: 17px;
+  border-radius: 15px;
+  margin-top: 10px;
+  height: 10x;
+  font-size: 15px;
   background-color: #eb9c4d;
   color: #142433;
   font-weight: bold;
-  padding: 2px;
+  text-align: center;
+  
+  
 }

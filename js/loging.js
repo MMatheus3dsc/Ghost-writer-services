@@ -12,11 +12,13 @@ form.addEventListener("submit", (event) => {
   }
   if(!validSenha(senha.value,8)){
     alert("a senha prescisa no mínimo 8 dígitos");
+    
     return;
   }
 
-
-    form.submit();
+   form.submit();
+   windows.location.href = "../htlm/index.html";
+   
 })
 
 function validEmail (email){
@@ -37,4 +39,9 @@ if(senha.length >= minDigitos){
 }else{
     return false;
 }
+}
+
+export const module = {
+    validEmail,
+    validSenha
 }
