@@ -1,0 +1,24 @@
+{
+  "name": "ghost-writer-services",
+  "version": "1.0.0",
+  "description": "Landing page\r esse projeto foi iniciado no dia 08/01/2023\r no qual dia 08 fiz apenas o arquivo index e sua estilização \r era pra ser só uma tentativa de projeto algo para testar e firmar meus conhecimentos\r porém resolvir ir mais alem e criei uma empresa fictícia que fornece ghost-writes kkkk",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MMatheus3dsc/Ghost-writer-services.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MMatheus3dsc/Ghost-writer-services/issues"
+  },
+  "homepage": "https://github.com/MMatheus3dsc/Ghost-writer-services#readme",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
