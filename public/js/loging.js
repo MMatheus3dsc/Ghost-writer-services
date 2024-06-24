@@ -11,8 +11,8 @@ form.addEventListener("submit", (event) => {
       alert("a senha prescisa no mínimo 8 dígitos");
     } else {
       setTimeout(function() {
-        window.location.href = "/html/index.html"; 
-      }, 1000);
+        window.location.href = "../html/index.html"; 
+      }, 500);
     }
   });
   
